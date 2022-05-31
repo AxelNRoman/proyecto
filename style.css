@@ -127,3 +127,8 @@ p{
     color: white;
     font-size: 20px
 }
+
+.img-whitelist:hover {
+    transform: scale(1) translateX(80px);
+    transition: all 1.5s ease;
+}
