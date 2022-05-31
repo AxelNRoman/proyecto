@@ -11,6 +11,11 @@ body {
     justify-content: center;
 }
 
+.logo:hover {
+    transform: scale(1.5);
+    transition: all 1.5s ease;
+}
+
 .nav-container {
     background-color: #e43fbb5d;
     position: sticky;
@@ -48,18 +53,22 @@ a {
 
 .image-1:hover {
     transform: scale(3) translateX(150px) translateY(-50px);
+    transition: all 1.5s ease;
 }
 
 .image-2:hover {
     transform: scale(3) translateX(50px) translateY(-50px);
+    transition: all 1.5s ease;
 }
 
 .image-3:hover {
     transform: scale(3) translateX(-100px) translateY(-50px);
+    transition: all 1.5s ease;
 }
 
 .image-4:hover {
     transform: scale(3) translateX(-150px) translateY(-50px);
+    transition: all 1.5s ease;
 }
 
 .footer-container {
@@ -97,7 +106,7 @@ a {
 
 .rules-container {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 900px 900px;
     grid-template-rows: repeat(4, 1060px);
 }
 
