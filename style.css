@@ -141,7 +141,7 @@ p {
 
 .image-staff:hover {
     transform: scale(2) translateX(40px);
-    font-size: 20px;
+    transition: all 1.5s ease;
 }
 
 .img-whitelist:hover {
