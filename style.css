@@ -132,3 +132,26 @@ p {
     transform: scale(1.2) translateX(-80px);
     transition: all 1.5s ease;
 }
+
+.foro1 {
+    grid-area: foro1;
+}
+
+.foro2 {
+    grid-area: foro2;
+}
+
+.foro3 {
+    grid-area: foro3;
+}
+
+.twit-foro {
+    grid-area: twit;
+}
+
+.foro-page {
+    display: grid;
+    grid-template-areas: "foro1 foro1 foro1 twit"
+                         "foro2 foro2 foro2 twit"
+                         "foro3 foro3 foro3 twit";
+}
