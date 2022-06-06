@@ -36,26 +36,6 @@ a {
     min-width: 320px;
 }
 
-.image-1:hover {
-    transform: scale(3) translateX(150px) translateY(-50px);
-    transition: all 1.5s ease;
-}
-
-.image-2:hover {
-    transform: scale(3) translateX(50px) translateY(-50px);
-    transition: all 1.5s ease;
-}
-
-.image-3:hover {
-    transform: scale(3) translateX(-100px) translateY(-50px);
-    transition: all 1.5s ease;
-}
-
-.image-4:hover {
-    transform: scale(3) translateX(-150px) translateY(-50px);
-    transition: all 1.5s ease;
-}
-
 .footer-container {
     display: flex;
     justify-content: space-between;
