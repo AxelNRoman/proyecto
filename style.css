@@ -113,3 +113,22 @@ p {
     transform: scale(1) translateX(80px);
     transition: all 1.5s ease;
 }
+
+.sec-white {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(2, 300px);
+}
+
+.text-right {
+    margin-top: 100px;
+    background-color: rgb(226, 158, 55);
+    border-radius: 0.5rem;  
+    border: 2px solid black;
+    align-items: stretch;
+}
+
+.text-right:hover {
+    transform: scale(1.2) translateX(-80px);
+    transition: all 1.5s ease;
+}
