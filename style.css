@@ -1,4 +1,3 @@
-/* Busque en una página para fondos y copie las etiquetas */
 body {
     background-image: url(Imagenes/Background.jpg);
     background-repeat: no-repeat;
@@ -14,20 +13,6 @@ body {
 .logo:hover {
     transform: scale(1.5);
     transition: all 1.5s ease;
-}
-
-.nav-container {
-    background-color: #e43fbb5d;
-    position: sticky;
-    top: 0;
-    bottom: 0;
-}
-
-.nav-content {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    grid-template-columns: repeat(320px, 1fr);
 }
 
 a {
