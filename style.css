@@ -156,11 +156,7 @@ p {
 }
 
 .text-right {
-    margin-top: 100px;
-    background-color: rgb(226, 158, 55);
-    border-radius: 0.5rem;  
-    border: 2px solid black;
-    align-items: stretch;
+    margin-top: 100px;;
 }
 
 .text-right:hover {
@@ -168,31 +164,19 @@ p {
     transition: all 1.5s ease;
 }
 
-.foro1 {
-    grid-area: foro1;
-}
-
-.foro2 {
-    grid-area: foro2;
-}
-
-.foro3 {
-    grid-area: foro3;
-}
-
-.twit-foro {
-    grid-area: twit;
-}
-
-.foro-page {
-    display: grid;
-    grid-template-areas: "foro1 foro1 foro1 twit"
-                         "foro2 foro2 foro2 twit"
-                         "foro3 foro3 foro3 twit";
-}
-
 @media screen and (max-width: 1000px){
     .video-container {
         display: none;
+    }
+    .eslogan1 {
+        margin-right: 400px;
+    }
+}
+
+@media screen and (max-width: 860px){
+    .sec-white {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
     }
 }
