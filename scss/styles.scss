@@ -1,6 +1,5 @@
 $color-principal: rgb(240, 145, 56);
 $color-secundario: rgb(243, 74, 201);
-$fuente-principal: 24px/Arial, Helvetica, sans-serif;
 
 body {
     background-image: url(Imagenes/Background.jpg);
@@ -19,7 +18,7 @@ body {
     p{
         color: $color-principal;
         font-size: 24px;
-        font-family: $fuente-principal;
+        font-family: Arial, Helvetica, sans-serif;
     }
     .footer-container {
         display: flex;
