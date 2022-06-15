@@ -10,16 +10,19 @@ body {
     .logo {
         display: flex;
         justify-content: center;
+
         &:hover {
             transform: scale(1.5);
             transition: all 1.5s ease;
         }
     }
-    p{
+
+    p {
         color: $color-principal;
         font-size: 24px;
         font-family: Arial, Helvetica, sans-serif;
     }
+
     .footer-container {
         display: flex;
         justify-content: space-between;
@@ -27,6 +30,7 @@ body {
         display: grid;
         grid-template-columns: 60% 40%;
         grid-template-rows: repeat(2, 50px);
+
         .redes-content {
             list-style: none;
             display: grid;
@@ -46,48 +50,49 @@ body {
 .rules-container {
     display: grid;
     grid-template-areas: "r1 r1"
-                         "r2 r2"
-                         "r3 r3"
-                         "r4 r4"
-                         "r5 r5"
-                         "r6 r6"
-                         "r7 r7"
-                         "r8 r8"
-                         "r9 r9";
+        "r2 r2"
+        "r3 r3"
+        "r4 r4"
+        "r5 r5"
+        "r6 r6"
+        "r7 r7"
+        "r8 r8"
+        "r9 r9";
     row-gap: 20px;
     justify-content: center;
+
     .rule-1 {
         grid-area: r1
     }
-    
+
     .rule-2 {
         grid-area: r2
     }
-    
-    .rule-3{
+
+    .rule-3 {
         grid-area: r3
     }
-    
+
     .rule-4 {
         grid-area: r4;
     }
-    
+
     .rule-5 {
         grid-area: r5
     }
-    
+
     .rule-6 {
         grid-area: r6
     }
-    
+
     .rule-7 {
         grid-area: r7
     }
-    
+
     .rule-8 {
         grid-area: r8
     }
-    
+
     .rule-9 {
         grid-area: r9;
     }
@@ -114,35 +119,39 @@ body {
 }
 
 .text-right {
-    margin-top: 100px;;
+    margin-top: 100px;
+    ;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
     .video-container {
         display: none;
     }
+
     .eslogan1 {
         margin-right: 400px;
     }
 }
 
-@media screen and (max-width: 860px){
+@media screen and (max-width: 860px) {
     .sec-white {
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto;
     }
+
     .boton {
         margin-top: 80px;
     }
 }
 
-@media screen and (max-width: 500px){
-    .lista-staff{
+@media screen and (max-width: 500px) {
+    .lista-staff {
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: auto;
     }
+
     .eslogan1 {
         display: none;
     }
