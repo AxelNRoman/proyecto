@@ -77,6 +77,10 @@ body {
 .text-right {
   margin-top: 100px; }
 
+.img-whitelist:hover {
+  transform: scale(1) translateX(50px);
+  transition: all 0.8s; }
+
 @media screen and (max-width: 1000px) {
   .video-container {
     display: none; }
