@@ -57,7 +57,7 @@ body {
   .rules-container .rule-9 {
     grid-area: r9; }
 
-.lista-staff {
+.list-staff {
   list-style: none;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -92,7 +92,7 @@ body {
     margin-top: 80px; } }
 
 @media screen and (max-width: 500px) {
-  .lista-staff {
+  .list-staff {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto; }

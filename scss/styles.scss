@@ -1,7 +1,5 @@
 @import "components/footer";
-
-$color-principal: rgb(240, 145, 56);
-$color-secundario: rgb(243, 74, 201);
+@import "base/list";
 
 body {
     background-image: url(Imagenes/Background.jpg);
@@ -20,7 +18,7 @@ body {
     }
 
     p {
-        color: $color-principal;
+        color: nth($colors, 1);
         font-size: 24px;
         font-family: Arial, Helvetica, sans-serif;
     }
@@ -83,7 +81,7 @@ body {
     }
 }
 
-.lista-staff {
+.list-staff {
     list-style: none;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -131,7 +129,7 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-    .lista-staff {
+    .list-staff {
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: auto;
