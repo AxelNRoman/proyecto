@@ -1,0 +1,8 @@
+@mixin animation ($scale, $transform) {
+    transform: $scale;
+    transition: $transform;
+}
+
+.logo:hover {
+    @include animation(scale(1.5), all 1.5s ease)
+}

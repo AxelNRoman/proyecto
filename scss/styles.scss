@@ -1,5 +1,7 @@
 @import "components/footer";
+@import "components/body";
 @import "base/list";
+@import "base/mixins";
 
 body {
     background-image: url(../Imagenes/Background.jpg);
@@ -10,11 +12,6 @@ body {
     .logo {
         display: flex;
         justify-content: center;
-
-        &:hover {
-            transform: scale(1.5);
-            transition: all 1.5s ease;
-        }
     }
 
     p {
@@ -103,7 +100,6 @@ body {
 
 .text-right {
     margin-top: 100px;
-    ;
 }
 
 .img-whitelist:hover {
