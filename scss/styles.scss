@@ -1,5 +1,4 @@
 @import "components/footer";
-@import "components/body";
 @import "base/list";
 @import "base/mixins";
 
@@ -78,6 +77,15 @@ body {
     }
 }
 
+.r-button {
+    color: nth($colors, 4);
+    font-size: 20px;
+    border: solid nth($colors, 1) 3px;
+    border-radius: 10px;
+    background-color: nth($colors, $n: 1);
+    margin-bottom: 10px;
+}
+
 .list-staff {
     list-style: none;
     display: grid;
@@ -114,6 +122,47 @@ body {
 
     .eslogan1 {
         margin-right: 400px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .r-button {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .rule-1 {
+        display: none;
+    }
+    .rule-2 {
+        display: none;
+    }
+    .rule-3 {
+        display: none;
+    }
+    .rule-4 {
+        display: none;
+    }
+    .rule-5 {
+        display: none;
+    }
+    .rule-6 {
+        display: none;
+    }
+    .rule-7 {
+        display: none;
+    }
+    .rule-8 {
+        display: none;
+    }
+    .rule-9 {
+        display: none;
+    }
+    .r-button {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
     }
 }
 

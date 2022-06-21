@@ -12,6 +12,10 @@
     grid-template-rows: repeat(2, 1px);
     column-gap: 40px; }
 
+.logo:hover {
+  transform: scale(1.5);
+  transition: all 1.5s ease; }
+
 body {
   background-image: url(../Imagenes/Background.jpg);
   background-repeat: no-repeat;
@@ -20,9 +24,6 @@ body {
   body .logo {
     display: flex;
     justify-content: center; }
-    body .logo:hover {
-      transform: scale(1.5);
-      transition: all 1.5s ease; }
   body p {
     color: #f09138;
     font-size: 24px;
@@ -57,6 +58,14 @@ body {
   .rules-container .rule-9 {
     grid-area: r9; }
 
+.r-button {
+  color: white;
+  font-size: 20px;
+  border: solid #f09138 3px;
+  border-radius: 10px;
+  background-color: #f09138;
+  margin-bottom: 10px; }
+
 .list-staff {
   list-style: none;
   display: grid;
@@ -86,6 +95,34 @@ body {
     display: none; }
   .eslogan1 {
     margin-right: 400px; } }
+
+@media screen and (min-width: 900px) {
+  .r-button {
+    display: none; } }
+
+@media screen and (max-width: 900px) {
+  .rule-1 {
+    display: none; }
+  .rule-2 {
+    display: none; }
+  .rule-3 {
+    display: none; }
+  .rule-4 {
+    display: none; }
+  .rule-5 {
+    display: none; }
+  .rule-6 {
+    display: none; }
+  .rule-7 {
+    display: none; }
+  .rule-8 {
+    display: none; }
+  .rule-9 {
+    display: none; }
+  .r-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px; } }
 
 @media screen and (max-width: 860px) {
   .sec-white {
