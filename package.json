@@ -1,7 +1,7 @@
 {
-  "name": "proyecto",
+  "name": "horizonroleplay",
   "version": "1.0.0",
-  "description": "<h1 align=\"center\">Hi 👋, I'm Axel</h1>\r <h3 align=\"center\">A passionate frontend developer from Argentina</h3>",
+  "description": "<h1 align=\"center\">Hola, somos HorizonRP</h1>\r <h3 align=\"center\">Un servidor de rol de GTAV que busca una comunidad sana y un rol que se disfrute y donde se respeten entre todos los usuarios. ¡Bienvenido!</h3>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
