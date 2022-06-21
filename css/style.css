@@ -12,10 +12,6 @@
     grid-template-rows: repeat(2, 1px);
     column-gap: 40px; }
 
-.logo:hover {
-  transform: scale(1.5);
-  transition: all 1.5s ease; }
-
 body {
   background-image: url(../Imagenes/Background.jpg);
   background-repeat: no-repeat;
@@ -36,7 +32,15 @@ body {
 
 .rules-container {
   display: grid;
-  grid-template-areas: "r1 r1" "r2 r2" "r3 r3" "r4 r4" "r5 r5" "r6 r6" "r7 r7" "r8 r8" "r9 r9";
+  grid-template-areas: "r1 r1"
+ "r2 r2"
+ "r3 r3"
+ "r4 r4"
+ "r5 r5"
+ "r6 r6"
+ "r7 r7"
+ "r8 r8"
+ "r9 r9";
   row-gap: 20px;
   justify-content: center; }
   .rules-container .rule-1 {
