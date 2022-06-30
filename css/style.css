@@ -36,15 +36,7 @@ body {
 
 .rules-container {
   display: grid;
-  grid-template-areas: "r1 r1"
- "r2 r2"
- "r3 r3"
- "r4 r4"
- "r5 r5"
- "r6 r6"
- "r7 r7"
- "r8 r8"
- "r9 r9";
+  grid-template-areas: "r1 r1" "r2 r2" "r3 r3" "r4 r4" "r5 r5" "r6 r6" "r7 r7" "r8 r8" "r9 r9";
   row-gap: 20px;
   justify-content: center; }
   .rules-container .rule-1 {
